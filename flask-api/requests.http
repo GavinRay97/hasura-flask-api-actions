@@ -1,0 +1,9 @@
+###
+POST http://localhost:5000/sum HTTP/1.1
+content-type: application/json
+
+{
+  "input": {
+    "numbers": [1,2,3,4,5,6]
+  }
+}
